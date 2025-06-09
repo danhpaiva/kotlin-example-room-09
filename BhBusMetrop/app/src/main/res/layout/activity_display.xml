@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do Ônibus"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        tools:text="Nome: Ônibus Expresso"/>
+
+    <TextView
+        android:id="@+id/tvNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        tools:text="Número: 12345"/>
+
+    <TextView
+        android:id="@+id/tvCor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        tools:text="Cor: Azul"/>
+
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        tools:text="Tipo: Urbano"/>
+
+    <TextView
+        android:id="@+id/tvPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        tools:text="Peso: 15000 kg"/>
+
+    <Button
+        android:id="@+id/btnVoltarTelaInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textSize="25sp"
+        android:minHeight="50dp"
+        android:layout_marginTop="200dp" />
+
+</LinearLayout>

@@ -25,7 +25,7 @@
         android:layout_marginBottom="24dp"/>
 
     <EditText
-        android:id="@+id/editTextNome"
+        android:id="@+id/etNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nome do Ônibus"
@@ -33,7 +33,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/editTextNumero"
+        android:id="@+id/etNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Número do Ônibus"
@@ -41,7 +41,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/editTextCor"
+        android:id="@+id/etCor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Cor do Ônibus"
@@ -49,7 +49,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/editTextTipo"
+        android:id="@+id/etTipo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Tipo do Ônibus (Ex: Urbano, Rodoviário)"
@@ -57,7 +57,7 @@
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/editTextPeso"
+        android:id="@+id/etPeso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Peso do Ônibus (kg)"
@@ -65,7 +65,7 @@
         android:layout_marginBottom="32dp"/>
 
     <Button
-        android:id="@+id/buttonEnviar"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
